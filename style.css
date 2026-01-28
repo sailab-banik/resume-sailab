@@ -1,0 +1,98 @@
+body {
+    background-color: #eee;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+h1 {
+    margin-bottom: 0%;
+}
+
+address {
+    font-style: normal;
+    display: grid;
+}
+
+header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-items: start;
+  gap: 1rem;
+}
+
+footer {
+    margin-top: auto; 
+    display: flex;
+}
+
+#ed-pg {
+    margin-top: -12px;
+}
+
+.pdf-page {
+  width: 210mm;
+  height: 297mm;
+  padding-left: 16mm;
+  padding-right: 16mm;
+  padding-top: 8mm;
+  margin: auto;
+  background: white;
+  box-shadow: 0 0 10px rgba(0,0,0,0.15);
+}
+
+
+.header-right {
+    margin-top: 40px;
+}
+
+.label {
+    font-size: large;
+    font-weight: bold;
+}
+
+.contact {
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+
+.external-link {
+    color: black;
+    font-size: large;
+    margin-right: 2px; 
+    margin-top: 4px;
+    text-underline-offset: 4px;
+}
+
+.vertical-line {
+    font-weight: bold;
+    padding-right: 2px;
+    padding-left: 2px;
+}
+
+.section-head {
+    margin-top: 32px;
+    margin-bottom: 4px;
+}
+
+.section-hr {
+    margin: 0%;
+    padding: 0%;
+    opacity: 0.6;
+}
+
+.tech-list {
+   list-style: none;
+   padding: 0%;
+}
+
+.tech-list li {
+    margin-bottom: 4px;
+}
+
+.experience-list {
+    margin-top: 0%;
+}
+
+.experience-list li {
+    margin-bottom: 4px;
+}
